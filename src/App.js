@@ -22,7 +22,7 @@ function App() {
       setInput("")
 
     }catch{
-      alert("Ops, erro ao buscar")
+      alert("Digite um CEP válido")
       setInput("")
     }
 
