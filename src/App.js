@@ -12,7 +12,7 @@ function App() {
   async function handleSearch(){
     
     if(input === ''){
-      alert("Preencha algum CEP!")
+      alert("Preencha um CEP!")
       return;
     }
 
@@ -33,7 +33,7 @@ function App() {
       <h1 className="title">Buscador CEP</h1>
       
       <div className="containerInput">
-        <input type="text"
+        <input type="number"
         placeholder="Digite seu CEP..."
         value={input}
         onChange={(e) => setInput(e.target.value)}
